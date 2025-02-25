@@ -1,7 +1,7 @@
 const express=require("express");
 const mongoose=require("mongoose");
 
-const MenuSchema=new mongoose.Schema({
+const MenuSchema=new mongoose.Schema[{
     dishName:{
         type:String,
         required:true
@@ -11,7 +11,7 @@ const MenuSchema=new mongoose.Schema({
         required:true
     }
 
-})
+}]
 
 const Menu=mongoose.model("Menu",MenuSchema);
 module.exports=Menu;
